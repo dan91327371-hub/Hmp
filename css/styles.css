@@ -1,0 +1,43 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.header {
+  background: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+
+.footer {
+  background: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
